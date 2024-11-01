@@ -1,0 +1,46 @@
+/* ====================================================================================================================
+ * Custom CSS
+ * ====================================================================================================================*/
+.wpnpg-section{
+	margin:20px auto;
+	padding:10px 0;
+	max-width:100%;
+}
+.wpnpg-single-image img{
+	width:auto;
+	height:auto;
+	margin-bottom:20px;
+	max-width:100%;
+}
+.flex-prev, .flex-next, .flex-prev:hover, .flex-next:hover {
+	border-bottom:0 none !important;
+	box-shadow: 0 0 0 0 !important;
+}
+.wpnpg-caption {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 15px;
+    background: #000;
+    opacity: 0.3;
+    color: #fff;
+    width: 100%;
+	font-size: 18px;
+}
+.flex-direction-nav a {
+	height:55px;
+}
+#carousel div ul li{
+	cursor:pointer;
+}
+#carousel div ul li:last-child {
+  margin-right: 0 !important;
+}
+.wpnpg-recent-gallery, .wpnpg-recent-gallery ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.wpnpg-recent-gallery ul li{
+	margin-bottom:10px;
+}
